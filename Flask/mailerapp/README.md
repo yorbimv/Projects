@@ -4,7 +4,10 @@ The application that works as a simple email manager, developed with Flask and H
 
 ----
 
-### Requirements
+<details align="left">
+         <summary><b>Requirements</b></summary>
+
+  <br>
 
 Mac 
 
@@ -29,6 +32,9 @@ Other tools
 - Flask
 
 
+</details>
+
+
 
 ### Tutorial
 
@@ -50,20 +56,28 @@ Other tools
 5. ``` flask run ```
 
 
+<details align="left">
+         <summary><b>Example</b></summary>
+  
+  <br>
+  
+  ![Screen Shot 2022-05-08 at 16 00 36](https://user-images.githubusercontent.com/65741972/167316959-307d3ad1-696f-4bb1-bceb-83c10deeb4f0.png)
 
 
-### Example
-
-![Screen Shot 2022-05-08 at 16 00 36](https://user-images.githubusercontent.com/65741972/167316959-307d3ad1-696f-4bb1-bceb-83c10deeb4f0.png)
+</details>
 
 
 
 
+<details align="left">
+         <summary><b>Screenshots</b></summary>
 
-### Screenshots
+  <br>
 
+  ![Screen Shot 2022-05-08 at 16 00 11](https://user-images.githubusercontent.com/65741972/167316956-9b9f8934-e365-4b15-9772-5c6f966622b7.png)
 
-![Screen Shot 2022-05-08 at 16 00 11](https://user-images.githubusercontent.com/65741972/167316956-9b9f8934-e365-4b15-9772-5c6f966622b7.png)
+</details>
+
 
 
 
