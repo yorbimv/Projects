@@ -6,15 +6,49 @@ The application that works as a simple email manager, developed with Flask and H
 
 ### Requirements
 
-MAC
+Mac 
+
+- [Pyhton 3.7](https://www.python.org/downloads/) 
+- [Visual Studio Code](https://code.visualstudio.com/download )
+- [Homebrew](https://brew.sh/index_es)
+- Mysql
+  - ``` brew install mysql ```    
+- Flask
+
+
+Windows
+
+- [Pyhton 3.7](https://www.python.org/downloads/)
+- [Git bash](https://git-scm.com/)  
+- [Visual Studio Code](https://code.visualstudio.com/download )
+- [Mysql Community Server](https://dev.mysql.com/downloads/mysql/)
+
+Other tools
 
 - Account Sendgrid
 - Flask
 
 
+
 ### Tutorial
 
 - You have to replace the .env file with the data from the SENDGRID.
+
+
+### Commands
+
+Mac
+- ``` python3 -m venv venv```
+- ```. venv/bin/activate```
+- export FLASK_APP=app
+- export FLASK_ENV=
+
+Windows
+- ``` py -3 -m venv ven```
+- ```> venv\Scripts\activate```
+
+
+
 
 ### How to work?
 
