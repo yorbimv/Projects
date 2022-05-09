@@ -3,13 +3,24 @@
 The application that works as a simple email manager, developed with Flask and HTML
 
 ----
+
+### Requirements
+
+MAC
+
+- Account Sendgrid
+- Flask
+
+
+### Tutorial
+
+- You have to replace the .env file with the data from the SENDGRID.
+
 ### How to work?
 
 ![Screen Shot 2022-05-08 at 16 00 36](https://user-images.githubusercontent.com/65741972/167316959-307d3ad1-696f-4bb1-bceb-83c10deeb4f0.png)
 
 
-### Web Heroku
-- https://powerful-refuge-70816.herokuapp.com/
 
 
 
