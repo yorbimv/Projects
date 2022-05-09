@@ -13,7 +13,7 @@ Mac
 - [Homebrew](https://brew.sh/index_es)
 - Mysql
   - ``` brew install mysql ```    
-- Flask
+
 
 
 Windows
@@ -32,25 +32,27 @@ Other tools
 
 ### Tutorial
 
-- You have to replace the .env file with the data from the SENDGRID.
+1. You have to replace the **.env** file with the data from the SENDGRID
+2. Activate venv
 
-
-### Commands
-
-Mac
-- ``` python3 -m venv venv```
-- ```. venv/bin/activate```
-- export FLASK_APP=app
-- export FLASK_ENV=
-
-Windows
-- ``` py -3 -m venv ven```
-- ```> venv\Scripts\activate```
+| Terminal| Command |
+|---------|---------|
+| Bash |  ``` python3 -m venv venv```<br> ```. venv/bin/activate``` |
+| fish | ``` python3 -m venv venv``` <br> ```source venv/bin/activate.fish```|
+| Windows | ``` py -3 -m venv ven``` <br> ``` venv\Scripts\activate```|
 
 
 
 
-### How to work?
+4. export dependences
+- ``` export FLASK_APP=app ```
+- ``` export FLASK_ENV=development ```
+5. ``` flask run ```
+
+
+
+
+### Example
 
 ![Screen Shot 2022-05-08 at 16 00 36](https://user-images.githubusercontent.com/65741972/167316959-307d3ad1-696f-4bb1-bceb-83c10deeb4f0.png)
 
