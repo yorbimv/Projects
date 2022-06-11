@@ -16,25 +16,30 @@
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/yorbimv)
 
 <p>
-  <a href="https://twitter.com/">
+  <a href="https://twitter.com/Sr_answer">
     <img align="left" alt="Yorbi Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
   </a>
-  <a href="https://www.linkedin.com/in/">
-    <img align="left" alt="Linkdein" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
-  </a>
+
   <a href="https://github.com/yorbimv">
     <img align="left" alt="Jorge Meneses Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
   </a>
   <a href="https://t.me/yorbimv">
     <img align="left" alt="Jorge Meneses Telegram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/telegram.svg" />
   </a>
-  <a href="#">
+  <a href="https://jorgemeneses.herokuapp.com/">
     <img align="left" alt="Sitio Web" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />
   </a>
 </p>
 
 <br>
+ <!-- coming soon
 
+<a href="https://www.linkedin.com/in/">
+    <img align="left" alt="Linkdein" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+  </a>
+
+  
+-->
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
 
