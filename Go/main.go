@@ -30,7 +30,7 @@ func crearUsuario() {
 	fmt.Print("Ingresa una edad:")
 	age, err := strconv.Atoi(readline())
 	if err != nil {
-		panic("No es posible convertir un string a un int")
+		panic("Debes ingresar sólo números.")
 	}
 
 	id++
@@ -45,34 +45,33 @@ func listarUsuario() {
 	fmt.Print("| id | Username   |\n")
 	fmt.Print("-------------------\n")
 
-	
 	for id, user := range users {
-		fmt.Println("| ",id, "| ", user.username)
+		fmt.Println("| ", id, "| ", user.username)
 	}
-
 	fmt.Println("\nLista de Usuarios\n")
 }
+
 func actualizarUsuario() {
 	clearConsole()
-	fmt.Println("Ingresa el ID de usuario para actualizar:")
+	fmt.Print("Ingresa el ID de usuario para actualizar:")
 	id, err := strconv.Atoi(readline())
 	if err != nil {
-		panic("Imposible la conversión de la edad, número incorrecto")
+		panic("Ingresa un id válido!!")
 	}
 	if _, ok := users[id]; ok {
 		clearConsole()
-		fmt.Println("Ingresa un valor para el nombre usuario:")
+		fmt.Print("Ingresa un valor para el nombre usuario: ")
 		username := readline()
-		fmt.Println("Ingresa un valor para el correo:")
+		fmt.Print("Ingresa un valor para el correo: ")
 		email := readline()
-		fmt.Println("Ingresa un valor para la edad:")
+		fmt.Print("Ingresa un valor para la edad: ")
 		age, err := strconv.Atoi(readline())
 		if err != nil {
-			panic("Imposible la conversión de la edad, número incorrecto")
+			panic("Ingresa una edad válida!!")
 		}
 		user := User{id, username, email, age}
 		users[id] = user
-		fmt.Println("Usuario actualizado exitosamente")
+		fmt.Println("\nUsuario actualizado exitosamente!!")
 	}
 }
 func eliminarUsuario() {
@@ -82,7 +81,7 @@ func eliminarUsuario() {
 	id, err := strconv.Atoi(readline())
 
 	if err != nil {
-		panic("No es posible convertir un string a un int")
+		panic("Ingresa un id válido")
 	}
 
 	if _, ok := users[id]; ok {
@@ -124,7 +123,6 @@ func main() {
 		fmt.Println("D) Eliminar")
 		fmt.Println("\n(q) Salir")
 
-
 		fmt.Print("\nIngresa una opción >> ")
 
 		option = readline()
@@ -147,5 +145,5 @@ func main() {
 		}
 
 	}
-	fmt.Println("\nAdios!!\n")
+	fmt.Println("\nHasta la próxima!!\n")
 }
