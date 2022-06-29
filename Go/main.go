@@ -42,13 +42,13 @@ func crearUsuario() {
 func listarUsuario() {
 	clearConsole()
 
+	fmt.Print("Lista de Usuarios\n\n")
 	fmt.Print("| id | Username   |\n")
 	fmt.Print("-------------------\n")
 
 	for id, user := range users {
 		fmt.Println("| ", id, "| ", user.username)
 	}
-	fmt.Println("\nLista de Usuarios\n")
 }
 
 func actualizarUsuario() {
@@ -56,7 +56,9 @@ func actualizarUsuario() {
 	fmt.Print("Ingresa el ID de usuario para actualizar:")
 	id, err := strconv.Atoi(readline())
 	if err != nil {
-		panic("Ingresa un id válido!!")
+		panic("Error!!")
+	} else {
+		fmt.Printf("Ingresa un id válido!!\n")
 	}
 	if _, ok := users[id]; ok {
 		clearConsole()
@@ -67,7 +69,7 @@ func actualizarUsuario() {
 		fmt.Print("Ingresa un valor para la edad: ")
 		age, err := strconv.Atoi(readline())
 		if err != nil {
-			panic("Ingresa una edad válida!!")
+			panic("Error!!")
 		}
 		user := User{id, username, email, age}
 		users[id] = user
@@ -145,5 +147,5 @@ func main() {
 		}
 
 	}
-	fmt.Println("\nHasta la próxima!!\n")
+	fmt.Print("\nHasta la próxima!!\n")
 }
