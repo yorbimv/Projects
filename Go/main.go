@@ -42,12 +42,15 @@ func crearUsuario() {
 func listarUsuario() {
 	clearConsole()
 
-	fmt.Println("id - Username")
+	fmt.Print("| id | Username   |\n")
+	fmt.Print("-------------------\n")
+
+	
 	for id, user := range users {
-		fmt.Println(id, "-", user.username)
+		fmt.Println("| ",id, "| ", user.username)
 	}
 
-	fmt.Println("\nLista de Usuarios")
+	fmt.Println("\nLista de Usuarios\n")
 }
 func actualizarUsuario() {
 	clearConsole()
@@ -114,12 +117,15 @@ func main() {
 
 	for {
 
+		fmt.Println("\n*** Menú Usuarios *** ")
 		fmt.Println("A) Crear")
 		fmt.Println("B) Listar")
 		fmt.Println("C) Actualizar")
 		fmt.Println("D) Eliminar")
+		fmt.Println("\n(q) Salir")
 
-		fmt.Println("Ingresa una opción")
+
+		fmt.Print("\nIngresa una opción >> ")
 
 		option = readline()
 
